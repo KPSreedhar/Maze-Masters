@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Games</title>
+    <style>
+        body {
+            background-color: #03011f;
+            font-family: "Source Sans Pro", sans-serif;
+            color: #6cacc5;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #03011f;
+            color: #6cacc5;
+            padding: 10px 0;
+            font-size: 24px;
+        }
+
+        .container {
+            margin: 50px auto;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .game-banner {
+            width: 300px;
+            height: 600px;
+            background-color: #2f2a69;
+            color: #6cacc5;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .game-banner:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+        }
+
+        .game-banner h2 {
+            margin: 10px 0;
+        }
+
+        .game-banner p {
+            font-size: 14px;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <header>Maze Game Portal</header>
+    <div class="container">
+        <a href="Normal Maze.html" class="game-banner">
+            <h2>Normal Maze Game</h2>
+            <p>Test your skills in this challenging maze!</p>
+        </a>
+        <a href="Joystick Maze.html" class="game-banner">
+            <h2>Joystick Maze Game</h2>
+            <p>Control the maze with a joystick and have fun!</p>
+        </a>
+    </div>
+</body>
+</html>
